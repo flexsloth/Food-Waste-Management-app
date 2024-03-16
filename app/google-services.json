@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630013665077",
+    "project_id": "fansha-6ee76",
+    "storage_bucket": "fansha-6ee76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630013665077:android:65ae9e844caeffc90ab67c",
+        "android_client_info": {
+          "package_name": "com.example.FanSha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630013665077-530tcc9e41c8nnt1sddq89j0qbeid5lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtIWP-6g4XM9ran4Bjp9Yv_8Wj10fNJTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630013665077-530tcc9e41c8nnt1sddq89j0qbeid5lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

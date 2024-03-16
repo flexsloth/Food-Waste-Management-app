@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.FanSha">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AAHAARAPP"
+        tools:ignore="AllowBackup">
+        <activity android:name="com.example.FanSha.UserdataActivity"></activity>
+        <activity android:name="com.example.FanSha.History" />
+        <activity android:name="com.example.FanSha.MyPin" />
+        <activity android:name="com.example.FanSha.About" />
+        <activity android:name="com.example.FanSha.FoodMap" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBtAubRGSlTZanGLTPT3JrKWsRCFAXZzrE" />
+
+        <activity android:name="com.example.FanSha.Receive" />
+        <activity android:name="com.example.FanSha.Contact" />
+        <activity android:name="com.example.FanSha.Signup" />
+        <activity android:name="com.example.FanSha.Logup" />
+        <activity android:name="com.example.FanSha.MainActivity" />
+        <activity android:name="com.example.FanSha.Donate" />
+        <activity android:name="com.example.FanSha.landingpage" />
+        <activity
+            android:name="com.example.FanSha.SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
